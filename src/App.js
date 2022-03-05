@@ -8,6 +8,7 @@ function App() {
     const cards = data.map((item) => {
         return (
             <Card
+                key={item.title}
                 title={item.title}
                 location={item.location}
                 googleMapsUrl={item.googleMapsUrl}
