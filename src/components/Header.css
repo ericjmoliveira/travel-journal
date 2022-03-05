@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #F55A5A;
+    margin-bottom: 20px;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+header .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 14.46px;
+    font-weight: 400;
+    color: #FFF;
+}

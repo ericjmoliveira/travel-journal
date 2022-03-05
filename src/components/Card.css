@@ -1,0 +1,56 @@
+.card {
+    display: grid;
+    grid-template-columns: 126px 326px;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ECEAEA;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.card .card-image {
+    width: 126px;
+    height: 168px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.card .card-info .country-name {
+    display: inline-block;
+    font-size: 12px;
+    color: #2B283A;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.card .card-info .country-name img {
+    margin-right: 5px;
+}
+
+.card .card-info .map-link {
+    font-size: 12px;
+    color: #918E9B;
+}
+
+.card .card-info .venue-name {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.card .card-info .date-interval {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card .card-info .venue-description {
+    width: 326px;
+    font-size: 12px;
+    color: #2B283A;
+}
