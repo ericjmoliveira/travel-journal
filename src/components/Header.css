@@ -1,19 +1,19 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    background-color: #F55A5A;
-    margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+	background-color: #f55a5a;
+	margin-bottom: 20px;
 }
 
 header img {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 header .title {
-    font-family: 'Inter', sans-serif;
-    font-size: 14.46px;
-    font-weight: 400;
-    color: #FFF;
+	font-family: 'Inter', sans-serif;
+	font-size: 14.46px;
+	font-weight: 400;
+	color: #fff;
 }
