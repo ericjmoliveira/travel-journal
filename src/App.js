@@ -24,7 +24,7 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
-			<div className="cards">{cards}</div>
+			{cards}
 		</div>
 	);
 }
